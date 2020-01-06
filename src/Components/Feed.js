@@ -2,7 +2,7 @@ import React from 'react'
 
 class Feed extends React.Component {
     render() {
-        return
+        return <div> hello </div>
     }
 }
 
