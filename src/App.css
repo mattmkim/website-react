@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.navbar {
+    border-top-width: 0px;
+    border-style: ridge;
+    width: 30%;
+    margin-left: 35%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-container {
+    height: 75px;
+    width: 100%;
+    padding: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mx-auto {
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.icon-wrapper {
+    width: 100%;
+    height: 50px !important;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.icons {
+    margin-right: 7px;
+    margin-left: 7px;    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-linkedin {
+	color: #AFAFAE;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.fa-linkedin:hover {
+    color: #E5AE40;
+}
+
+.fa-github-square {
+	color: #AFAFAE;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.fa-github-square:hover {
+    color: #E5AE40;
+}
+
+.fa-facebook-square {
+	color: #AFAFAE;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.fa-facebook-square:hover {
+    color: #E5AE40;
+}
+
+.fa-envelope-square {
+	color: #AFAFAE;
+	-webkit-transition: color 0.2s ease-out;
+	-moz-transition: color 0.2s ease-out;
+	-o-transition: color 0.2s ease-out;
+	-ms-transition: color 0.2s ease-out;
+	transition: color 0.2s ease-out;
+}
+
+.fa-envelope-square:hover {
+    color: #E5AE40;
 }
