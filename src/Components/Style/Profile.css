@@ -3,11 +3,7 @@
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-}
-
-.profile-card {
-	width: 700px;
-	box-shadow: rgba(0, 0, 0, 0.125) 0px 1px 6px;
+	margin-top: 20px;
 }
 
 .rounded-circle {
@@ -29,12 +25,12 @@ a.penn-link {
 
 a.penn-link:link {
 	background-color: transparent;
+	background-color: rgb(252, 244, 227);
 }
 
 a.penn-link:hover {
-	background-color: rgb(254, 238, 206);
+	background-color: rgb(255, 228, 173);
 	text-decoration: underline;
-	
 }
 
 .image-wrapper {

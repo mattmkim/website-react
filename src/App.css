@@ -1,8 +1,13 @@
 .navbar {
-    border-top-width: 0px;
-    border-style: ridge;
-    width: 30%;
-    margin-left: 35%;
+	border-width: 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+    border-style: solid;
+    width: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+	backdrop-filter: blur(4px);
+	
 }
 
 .navbar-container {
