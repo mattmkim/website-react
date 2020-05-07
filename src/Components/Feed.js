@@ -88,7 +88,7 @@ class Feed extends React.Component {
                     <Card className="tech-card">
                     <div class="content-wrapper">
                         <div class="title-wrapper">
-                            <h2 class="feed-name">General Purpose</h2>
+                            <h2 class="feed-name">General Purpose</h2> 
                         </div>
                             
                         <p class="feed-info">Java, Javascript, Python, C</p>
