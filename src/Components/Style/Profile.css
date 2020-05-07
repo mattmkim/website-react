@@ -21,6 +21,22 @@
 	flex: row;
 }
 
+a.penn-link {
+	text-decoration: none;
+	color: #E5AE40;
+	
+}
+
+a.penn-link:link {
+	background-color: transparent;
+}
+
+a.penn-link:hover {
+	background-color: rgb(254, 238, 206);
+	text-decoration: underline;
+	
+}
+
 .image-wrapper {
 	display: flex;
 	flex-direction: column;
@@ -34,30 +50,14 @@
 	margin-left: 30px;
 }
 
-
 .intro .name {
 	margin-top: 15px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-weight: 800;
 }
 
-.my-name {
-	color: #E5AE40;
-}
 .intro .desc {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
-}
-
-.intro .learning {
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-	line-height: 1.4;
-}
-
-.react {
-	font-family: 'Lato', sans-serif;
-	color: #61DBFB;
-	font-weight: 900;
 }
