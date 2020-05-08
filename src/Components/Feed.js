@@ -15,7 +15,7 @@ class Feed extends React.Component {
                 <Card className="feed-card">
                     <div class="content-wrapper">
                         <h2 class="feed-name"> University of Pennsylvania <img class="feed-logo" src={penn}/> </h2>
-                        <p class="feed-date"> 2018 - 2022 &#183; 3.93 GPA </p>
+                        <p class="feed-date"> 2018 - 2022 &#183; 3.92 GPA </p>
                         <ul class="feed-info">
                             <li>Pursuing a BSE in Computer Science in the School of Engineering and Applied Sciences.</li>
                             <li>Pursuing a Minor in Data Science in the School of Engineering and Applied Sciences.</li>

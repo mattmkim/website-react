@@ -85,3 +85,14 @@
 .fa-envelope-square:hover {
     color: #E5AE40;
 }
+
+.copy-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.copy {
+	font-family: 'Noto Sans JP', sans-serif;
+	color: rgba(77, 77, 77, 0.365);
+}

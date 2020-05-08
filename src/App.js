@@ -70,6 +70,12 @@ class App extends Component {
                         </Navbar>
                     </Container>      
                     {this.renderBody()}
+                    
+                    <div class="copy-container">
+                        <p class="copy">Matthew Kim &copy; 2020 </p>
+                    </div>
+
+                    
                 </div>
             </div>
     
