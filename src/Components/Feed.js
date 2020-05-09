@@ -41,7 +41,7 @@ class Feed extends React.Component {
                         <h2 class="feed-name"> Incoming Software Engineering Intern, Mailgun <img class="feed-logo" src={mailgun}/> </h2>
                         <p class="feed-date"> May - Aug. 2020 &#183; San Antonio, TX </p>
                         <ul class="feed-info">
-                            <li>Incoming software engineering intern at Mailgun Technologies.</li>
+                            <li>Incoming software engineering intern at Mailgun.</li>
                         </ul>
                     </div>
                 </Card>
@@ -64,7 +64,7 @@ class Feed extends React.Component {
                         <ul class="feed-info">
                             <li>Conducted research at the Penn Institute for Computational Science with the Patel Group to better understand the hydrophobicity of proteins and protein-protein interfaces. </li>
                             <li>Developed algorithm in Python using Scipy to cluster atoms in a protein by first binning atoms based on their susceptibility to dewetting and then traversing their nearest neighbors.</li>
-                            <li>Developed a machine learning model using neural networks with Pytroch to classify atoms that were predicted to be a part of a protein-protein interface as true or false positives.</li>
+                            <li>Developed a machine learning model using neural networks with Pytorch to classify atoms that were predicted to be a part of a protein-protein interface as true or false positives.</li>
                             <li>Leveraged the HyperSearch API to optimize hyperparameters of the model.</li>
                         </ul>
                     </div>
