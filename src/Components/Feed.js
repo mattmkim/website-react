@@ -38,10 +38,10 @@ class Feed extends React.Component {
                 <h2 class="feed-title">Experience</h2>
                 <Card className="feed-card">
                     <div class="content-wrapper">
-                        <h2 class="feed-name"> Incoming Software Engineering Intern, Mailgun <img class="feed-logo" src={mailgun}/> </h2>
+                        <h2 class="feed-name"> Software Engineering Intern, Mailgun <img class="feed-logo" src={mailgun}/> </h2>
                         <p class="feed-date"> May - Aug. 2020 &#183; San Antonio, TX </p>
                         <ul class="feed-info">
-                            <li>Incoming software engineering intern at Mailgun.</li>
+                            <li>Backend work on the Pipeline team.</li>
                         </ul>
                     </div>
                 </Card>
@@ -91,7 +91,7 @@ class Feed extends React.Component {
                             <h2 class="feed-name">General Purpose</h2> 
                         </div>
                             
-                        <p class="feed-info">Java, Javascript, Python, C</p>
+                        <p class="feed-info">Java, Golang, Javascript, Python, C</p>
                     </div>
                     </Card>
                     <Card className="tech-card">

@@ -7,14 +7,15 @@
 }
 
 .rounded-circle {
-	height: 150px;
-	width: 150px;
+	height: 200px;
+	width: 200px;
 	float: left;
 }
 
 .profile {
 	display: flex;
 	flex: row;
+	max-width: 850px;
 }
 
 a.penn-link {
@@ -52,6 +53,13 @@ a.penn-link:hover {
 }
 
 .intro .desc {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.second {
+	margin-top: -4px;
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 20px;
 	line-height: 1.4;
