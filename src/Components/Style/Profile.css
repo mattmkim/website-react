@@ -20,16 +20,16 @@
 
 a.penn-link {
 	text-decoration: none;
-	color: #E5AE40;
+	color: rgb(23, 42, 69);
 }
 
 a.penn-link:link {
 	background-color: transparent;
-	background-color: rgb(252, 244, 227);
+	background-color: rgb(218, 230, 255);
 }
 
 a.penn-link:hover {
-	background-color: rgb(255, 228, 173);
+	background-color: rgb(205, 221, 255);
 	text-decoration: underline;
 }
 
