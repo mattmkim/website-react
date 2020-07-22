@@ -1,33 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d3e7f62.chunk.css",
-    "main.js": "/static/js/main.eca549cb.chunk.js",
-    "main.js.map": "/static/js/main.eca549cb.chunk.js.map",
+    "main.css": "/static/css/main.d2c0e58f.chunk.css",
+    "main.js": "/static/js/main.328375bf.chunk.js",
+    "main.js.map": "/static/js/main.328375bf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0c82f2cf.js",
     "runtime-main.js.map": "/static/js/runtime-main.0c82f2cf.js.map",
-    "static/js/2.904ef12c.chunk.js": "/static/js/2.904ef12c.chunk.js",
-    "static/js/2.904ef12c.chunk.js.map": "/static/js/2.904ef12c.chunk.js.map",
+    "static/js/2.288353c4.chunk.js": "/static/js/2.288353c4.chunk.js",
+    "static/js/2.288353c4.chunk.js.map": "/static/js/2.288353c4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c7bf3eadfa8271600a4a7ee590e24c4d.js": "/precache-manifest.c7bf3eadfa8271600a4a7ee590e24c4d.js",
+    "precache-manifest.02962255b46f8d03492ac4537555af8e.js": "/precache-manifest.02962255b46f8d03492ac4537555af8e.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.1d3e7f62.chunk.css.map": "/static/css/main.1d3e7f62.chunk.css.map",
-    "static/js/2.904ef12c.chunk.js.LICENSE.txt": "/static/js/2.904ef12c.chunk.js.LICENSE.txt",
-    "static/media/chatbot.png": "/static/media/chatbot.bbdad4d5.png",
-    "static/media/empty.png": "/static/media/empty.d54e9cc4.png",
-    "static/media/facebook.png": "/static/media/facebook.0a4e922a.png",
+    "static/css/main.d2c0e58f.chunk.css.map": "/static/css/main.d2c0e58f.chunk.css.map",
+    "static/js/2.288353c4.chunk.js.LICENSE.txt": "/static/js/2.288353c4.chunk.js.LICENSE.txt",
     "static/media/matt.jpg": "/static/media/matt.76ba4267.jpg",
-    "static/media/minesweeper.png": "/static/media/minesweeper.e69c37ba.png",
     "static/media/monty.png": "/static/media/monty.e9abb34e.png",
-    "static/media/ppi.png": "/static/media/ppi.31a183cd.png",
     "static/media/princeton.png": "/static/media/princeton.07465213.png",
-    "static/media/roads.png": "/static/media/roads.17395ac1.png",
-    "static/media/safety.png": "/static/media/safety.5ce62df3.png",
     "static/media/upenn.png": "/static/media/upenn.494840db.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0c82f2cf.js",
-    "static/js/2.904ef12c.chunk.js",
-    "static/css/main.1d3e7f62.chunk.css",
-    "static/js/main.eca549cb.chunk.js"
+    "static/js/2.288353c4.chunk.js",
+    "static/css/main.d2c0e58f.chunk.css",
+    "static/js/main.328375bf.chunk.js"
   ]
 }
