@@ -99,7 +99,7 @@ class Feed extends React.Component {
                         <div class="title-wrapper">
                             <h2 class="feed-name">Web Development</h2>
                         </div>
-                        <p class="feed-info">React/Redux, Node, Express, HTML, CSS, jQuery, EJS </p>
+                        <p class="feed-info">React, Node, Express, HTML, CSS, jQuery, EJS </p>
                     </div>
                     </Card>
                 </CardDeck>

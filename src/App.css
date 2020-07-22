@@ -1,12 +1,18 @@
 .navbar {
-	border-width: 1px;
+	border-width: 0px;
 	border-top-width: 0px;
 	border-right-width: 0px;
 	border-left-width: 0px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 6px;
     border-style: solid;
     width: 100%;
 	font-family: 'Noto Sans JP', sans-serif;
-	backdrop-filter: blur(4px);
+	/* backdrop-filter: blur(4px); */
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: 60px;
 	
 }
 
@@ -16,25 +22,34 @@
     padding: 0px;
 }
 
+.name {
+	position: absolute;
+	left: 1rem;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
+
 .mx-auto {
-    text-align: center;
+	position: absolute;
+	text-align: center;
 }
 
 .icon-wrapper {
-    width: 100%;
-    height: 50px !important;
+	position: absolute;
+	right: 1rem;
     display: flex;
     justify-content: flex-end;
-    margin-top: 5px;
 }
 
 
 .icons {
     margin-right: 7px;
-    margin-left: 7px;    
+	margin-left: 7px;  
+	font-size: 22px;  
 }
 
-.fa-linkedin {
+.fa-linkedin-in {
 	color: #AFAFAE;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
@@ -43,11 +58,11 @@
 	transition: color 0.2s ease-out;
 }
 
-.fa-linkedin:hover {
+.fa-linkedin-in:hover {
     color: rgb(0, 38, 104);
 }
 
-.fa-github-square {
+.fa-github {
 	color: #AFAFAE;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
@@ -56,11 +71,11 @@
 	transition: color 0.2s ease-out;
 }
 
-.fa-github-square:hover {
+.fa-github:hover {
     color: rgb(0, 38, 104);
 }
 
-.fa-facebook-square {
+.fa-facebook{
 	color: #AFAFAE;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
@@ -69,11 +84,11 @@
 	transition: color 0.2s ease-out;
 }
 
-.fa-facebook-square:hover {
+.fa-facebook:hover {
     color: rgb(0, 38, 104);
 }
 
-.fa-envelope-square {
+.fa-medium-m {
 	color: #AFAFAE;
 	-webkit-transition: color 0.2s ease-out;
 	-moz-transition: color 0.2s ease-out;
@@ -82,14 +97,18 @@
 	transition: color 0.2s ease-out;
 }
 
-.fa-envelope-square:hover {
-    color: rgb(0, 38, 104);
+.fa-medium-m:hover {
+	color: rgb(0, 38, 104);
 }
 
 .copy-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	position: fixed;
+	bottom: 0;
+	margin-left: 10px;
+
 }
 
 .copy {

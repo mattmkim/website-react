@@ -1,12 +1,5 @@
 import React from 'react'
 import './Style/Projects.css'
-import minesweeper from './minesweeper.png'
-import bball from './empty.png'
-import ppi from './ppi.png'
-import chatbot from './chatbot.png'
-import facebook from './facebook.png'
-import safety from './safety.png'
-import roads from './roads.png'
 import {Container, Row, Card, Image, Button} from 'react-bootstrap';
 
 class Projects extends React.Component {
@@ -28,7 +21,7 @@ class Projects extends React.Component {
                                 <div class="card-info">
                                     <h4 class="card-title">Safe Roads</h4>
                                     <p>Final project for CIS 550: Database and Information Systems. Web app to explore the relationship between U.S. accident and weather data.</p>
-                                    <p class="card-tech">Tech Used: Javascript, Node, Express, HTML, CSS, SQL, MongoDB, Heroku</p>
+                                    <p class="card-tech">Tech Used: Javascript, Node, Express, SQL, MongoDB, Heroku</p>
                                 </div>
                             </div>
                         </Card>
