@@ -6,9 +6,36 @@
 	margin-top: 20px;
 }
 
-.rounded-circle {
+.profile-container-mobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	width: 100%;
+	max-width: 100%;
+}
+
+.image-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5px;
+	padding-left: 15px;
+}
+
+.prof-pic {
+	border-radius: 50%!important;
 	height: 200px;
 	width: 200px;
+	float: left;
+}
+
+.prof-pic-mobile {
+	border-radius: 50%!important;
+	height: 150px;
+	width: 150px;
 	float: left;
 }
 
@@ -16,6 +43,14 @@
 	display: flex;
 	flex: row;
 	max-width: 850px;
+}
+
+.profile-mobile {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }
 
 a.penn-link {
@@ -33,17 +68,12 @@ a.penn-link:hover {
 	text-decoration: underline;
 }
 
-.image-wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	padding-left: 15px;
-}
-
 .intro {
 	margin-left: 30px;
+}
+
+.intro-mobile {
+	margin-left: 15px;
 }
 
 .intro .name-large {
@@ -52,9 +82,22 @@ a.penn-link:hover {
 	font-weight: 800;
 }
 
+.intro-mobile .name-large-mobile {
+	margin-top: 15px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 800;
+	font-size: 20px;
+}
+
 .intro .desc {
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 20px;
+	line-height: 1.4;
+}
+
+.intro-mobile .desc-mobile {
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 14px;
 	line-height: 1.4;
 }
 
@@ -62,5 +105,12 @@ a.penn-link:hover {
 	margin-top: -4px;
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 20px;
+	line-height: 1.4;
+}
+
+.second-mobile {
+	margin-top: -4px;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 14px;
 	line-height: 1.4;
 }

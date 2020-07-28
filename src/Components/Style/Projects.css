@@ -1,6 +1,6 @@
 .project-container {
     font-family: 'Noto Sans JP', sans-serif;
-    margin-top: 40px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,9 +8,25 @@
     width: 950px;
 }
 
+.project-container-mobile {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+}
+
 .project-title {
     margin-left: -40px;
     align-self: flex-start !important;
+}
+
+.project-title-mobile {
+    align-self: flex-start !important;
+    font-size: 22px;
 }
 
 .project-row {
@@ -28,8 +44,18 @@
     box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 6px;
     margin-right: 10px;
     margin-left: 10px;
-    color: white;
-    background-color: rgb(23, 42, 69);
+    color: black;
+}
+
+.card-project-mobile {
+    height: 330px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 6px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 .card-body {
@@ -44,11 +70,11 @@
 }
 
 .images i{
-    color: white;
+    color: black;
 }
 
-.images i:hover {
-    color: rgb(218, 230, 255);
+.fab:hover {
+    color: rgb(0, 92, 220);
 }
 
 .card-info {
@@ -61,8 +87,26 @@
     margin-bottom: 20px;
 }
 
+.card-title-mobile {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.card-info-mobile {
+    font-size: 12px;
+}
+
 .card-tech {
     font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card-tech-mobile {
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    font-size: 12px;
     margin-top: 20px;
 }
 
@@ -77,24 +121,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-
-
-.project-image-wrapper {
-    width: 475px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.info-wrapper {
-    width: 475px;
-    margin-left: 10px;
-}
-
-.image {
-    max-width: 475px;
 }
 
 .project-name {
