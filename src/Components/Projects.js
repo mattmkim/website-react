@@ -108,7 +108,7 @@ class Projects extends React.Component {
                                 </div>
                             </Card>
     
-                            <Card className="card-project-mobile">
+                            {/* <Card className="card-project-mobile">
                                 <div class="card-body">
                                     <div class="images">
                                         <i class="far fa-folder-open fa-7x"></i>
@@ -122,7 +122,7 @@ class Projects extends React.Component {
                                         <p class="card-tech-mobile">Tech Used: Java, Java Swing</p>
                                     </div>
                                 </div>
-                            </Card>
+                            </Card> */}
                     </Container>
                 </div>
             );
@@ -231,7 +231,7 @@ class Projects extends React.Component {
                             </Card>
                         </div>
     
-                        <div class="project-row">
+                        {/* <div class="project-row">
                             <Card className="card-project">
                                 <div class="card-body">
                                     <div class="images">
@@ -247,7 +247,7 @@ class Projects extends React.Component {
                                     </div>
                                 </div>
                             </Card>
-                        </div>
+                        </div> */}
                     </Container>
                 </div>
             );

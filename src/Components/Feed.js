@@ -4,6 +4,8 @@ import penn from './upenn.png'
 import monty from './monty.png'
 import mailgun from './mailgun.png'
 import princeton from './princeton.png'
+import uniqgo from './uniqgo.png'
+import codetime from './codetime.png'
 import withWindowDimensions from './withWindowDimensions.jsx'
 import './Style/Feed.css'
 
@@ -18,6 +20,29 @@ class Feed extends React.Component {
             return (
                 <div>
                     <Container className="feed-container-mobile">
+                        <h2 class="feed-title-mobile">Some things I've built recently...</h2>
+                        <div class="blog-container-mobile">
+                            <Card className="article-card-mobile">
+                                <a href="https://medium.com/@mattmkim/uniqgo-a-go-service-that-tells-me-when-uniqlo-clothes-are-in-stock-f8d49888ccd9" target="_blank"><Card.Img className="card-img-top-mobile" variant="top" src={uniqgo} fluid/></a>
+                                <Card.Body>
+                                <a class="blog-a" href="https://medium.com/@mattmkim/uniqgo-a-go-service-that-tells-me-when-uniqlo-clothes-are-in-stock-f8d49888ccd9" target="_blank"><div class="blog-title-link-mobile">Uniqgo</div></a>
+                                    <Card.Text className="article-card-text-mobile"> 
+                                        A Golang service to notify me when Uniqlo clothes are in stock.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                            <Card className="article-card-mobile">
+                                <a href="https://medium.com/@mattmkim/codetime-a-chrome-extension-that-rewards-me-for-solving-leetcode-problems-cc2831c52724" target="_blank"><Card.Img className="card-img-top-mobile" variant="top" src={codetime} fluid/></a>
+                                <Card.Body>
+                                <a class="blog-a" href="https://medium.com/@mattmkim/codetime-a-chrome-extension-that-rewards-me-for-solving-leetcode-problems-cc2831c52724" target="_blank"><div class="blog-title-link-mobile">CodeTime</div></a>
+                                    <Card.Text className="article-card-text-mobile">
+                                        A Chrome Extension to reward me with time to spend on certain websites when I solve LeetCode problems.
+                                    </Card.Text>
+                                </Card.Body>
+                            </Card>
+                        </div>
+                    </Container>
+                    {/* <Container className="feed-container-mobile">
                     <h2 class="feed-title-mobile">Education</h2>
                         <Card className="feed-card">
                             <div class="content-wrapper">
@@ -127,10 +152,10 @@ class Feed extends React.Component {
                                
                             </div>
                         </Card>
-                    </Container>
+                    </Container> */}
         
                     <Container className="tech-container-mobile">
-                        <h2 class="feed-title-mobile">Technologies</h2>
+                        <h2 class="feed-title-mobile">Some technologies I've learned...</h2>
                             <Card className="tech-card-mobile">
                             <div class="content-wrapper-mobile">
                                 <div class="title-wrapper-mobile">
@@ -170,6 +195,83 @@ class Feed extends React.Component {
             return (
                 <div>
                     <Container className="feed-container">
+                        <h2 class="feed-title">Some things I've built recently...</h2>
+                        <div class="blog-container">
+                            <Card className="article-card">
+                                <a href="https://medium.com/@mattmkim/uniqgo-a-go-service-that-tells-me-when-uniqlo-clothes-are-in-stock-f8d49888ccd9" target="_blank"><Card.Img variant="top" src={uniqgo} fluid/></a>
+                                <Card.Body>
+                                <a class="blog-a" href="https://medium.com/@mattmkim/uniqgo-a-go-service-that-tells-me-when-uniqlo-clothes-are-in-stock-f8d49888ccd9" target="_blank"><div class="blog-title-link">Uniqgo</div></a>
+                                    <Card.Text className="article-card-text"> 
+                                        A Golang service to notify me when Uniqlo clothes are in stock.
+                                    </Card.Text>
+                                <div class="links">
+                                    <a class="link" href="https://github.com/mattmkim/uniqgo" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Source Code
+                                    </a>
+                                </div>
+                                </Card.Body>
+                            </Card>
+                            <Card className="article-card">
+                                <a href="https://medium.com/@mattmkim/codetime-a-chrome-extension-that-rewards-me-for-solving-leetcode-problems-cc2831c52724" target="_blank"><Card.Img variant="top" src={codetime} fluid/></a>
+                                <Card.Body>
+                                <a class="blog-a" href="https://medium.com/@mattmkim/codetime-a-chrome-extension-that-rewards-me-for-solving-leetcode-problems-cc2831c52724" target="_blank"><div class="blog-title-link">CodeTime</div></a>
+                                    <Card.Text className="article-card-text">
+                                        A Chrome Extension to reward me with time to spend on certain websites when I solve LeetCode problems.
+                                    </Card.Text>
+                                    <div class="links">
+                                    <a class="link" href="https://github.com/mattmkim/codetime" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i>
+                                        Source Code
+                                    </a>
+                                </div>
+                                </Card.Body>
+                                
+
+                            </Card>
+                        </div>
+                    </Container>
+                    <Container className="tech-container">
+                        <h2 class="feed-title">Some technologies I've learned...</h2>
+                        <CardDeck className="carddeck">
+                            <Card className="tech-card">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <h2 class="feed-name">Languages</h2> 
+                                </div>
+                                    
+                                <p class="tech-info">Java, Golang, Javascript, Python</p>
+                            </div>
+                            </Card>
+                            <Card className="tech-card">
+                            <div class="content-wrapper">
+                                <div class="title-wrapper">
+                                    <h2 class="feed-name">Web Development</h2>
+                                </div>
+                                <p class="tech-info">React, Node.js, Express, EJS, jQuery </p>
+                            </div>
+                            </Card>
+                        </CardDeck>
+                        <CardDeck className="carddeck">
+                            <Card className="tech-card">
+                            <div class="content-wrapper">
+                            <div class="title-wrapper">
+                                    <h2 class="feed-name">Databases & Deployment</h2>
+                                </div>
+                                <p class="tech-info">AWS DynamoDB, MongoDB, Cassandra, SQL, MapReduce, Docker, Heroku</p>
+                            </div>
+                            </Card>
+                            <Card className="tech-card">
+                            <div class="content-wrapper">
+                             <div class="title-wrapper">
+                                    <h2 class="feed-name">Misc.</h2>
+                                </div>
+                                <p class="tech-info">AWS Lambda, Selenium, Prometheus.io, Grafana</p>
+                            </div>
+                            </Card>
+                        </CardDeck>
+                    </Container>
+                    {/* <Container className="feed-container">
                     <h2 class="feed-title">Education</h2>
                         <Card className="feed-card">
                             <div class="content-wrapper">
@@ -319,7 +421,7 @@ class Feed extends React.Component {
                             </div>
                             </Card>
                         </CardDeck>
-                    </Container>
+                    </Container> */}
                 </div>
             )}
     }
